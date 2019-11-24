@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "The Jres specification establishes how to format JSON RESTful API responses.",
   "main": "server.js",
+  "scripts": {
+    "deploy": "npm install && PORT=7001 node server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/blakewilson/jres.git"
