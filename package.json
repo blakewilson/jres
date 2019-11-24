@@ -1,0 +1,18 @@
+{
+  "name": "jres_spec",
+  "version": "1.0.0",
+  "description": "The Jres specification establishes how to format JSON RESTful API responses.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakewilson/jres.git"
+  },
+  "author": "Blake Wilson",
+  "license": "MIT",
+  "homepage": "https://jres.dev",
+  "dependencies": {
+    "express": "^4.17.1",
+    "highlight.js": "^9.16.2",
+    "marked": "^0.7.0"
+  }
+}
