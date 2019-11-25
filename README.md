@@ -121,4 +121,4 @@ fetch(`/users/`, {
 
 ---
 
-The Jres specification was created by [Blake Wilson](https://github.com/blakewilson). The specification and this website are open source, and are released under the [MIT license](https://github.com/blakewilson/jres/blob/master/LICENSE).
+The Jres specification was created by [Blake Wilson](https://github.com/blakewilson). The specification and this website are [open source](https://github.com/blakewilson/jres), and are released under the [MIT license](https://github.com/blakewilson/jres/blob/master/LICENSE).
