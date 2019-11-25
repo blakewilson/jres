@@ -28,6 +28,15 @@ app.get('/', (req, res) => {
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/atom-one-dark.min.css">
         <link rel="icon" href="/favicon.ico">
         <meta name="description" content="The Jres specification establishes how to format JSON RESTful API responses."
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132058143-7"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-132058143-7');
+        </script>
     </head>
     <body>
         ${marked(file.toString())}

@@ -119,4 +119,8 @@ blockquote p {
     a {
         color: #fff;
     }
+
+    blockquote {
+        border-left-color: #1f1f1f;
+    }
 }
