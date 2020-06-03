@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "npm install && next build && next start -p 7001"
+    "deploy": "npm install && next build && next start -p 7002"
   },
   "repository": {
     "type": "git",
