@@ -4,7 +4,10 @@
   "description": "The Jres specification establishes how to format JSON RESTful API responses.",
   "main": "server.js",
   "scripts": {
-    "deploy": "npm install && PORT=7002 node server.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "npm install && next build && next start -p 7001"
   },
   "repository": {
     "type": "git",
@@ -14,8 +17,12 @@
   "license": "MIT",
   "homepage": "https://jres.dev",
   "dependencies": {
-    "express": "^4.17.1",
-    "highlight.js": "^9.16.2",
-    "marked": "^0.7.0"
+    "next": "^9.4.4",
+    "raw-loader": "^4.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-highlight.js": "^1.0.7",
+    "react-markdown": "^4.3.1",
+    "url-slug": "^2.3.1"
   }
 }
