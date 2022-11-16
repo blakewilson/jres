@@ -17,7 +17,7 @@
   "license": "MIT",
   "homepage": "https://jres.dev",
   "dependencies": {
-    "next": "^9.4.4",
+    "next": "^13.0.3",
     "raw-loader": "^4.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
